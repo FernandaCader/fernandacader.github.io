@@ -74,6 +74,8 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  background-color: white;
+  border-radius: 5cm;
 }
 
 mark {

@@ -427,6 +427,7 @@ figure {
 					padding: 0;
 					color: rgba($brand-black,1);
 					font-family: $font-secondary;
+					background-color: white;
 				}
 				h1 {
 					margin-bottom: 20px;
@@ -435,6 +436,7 @@ figure {
 					font-weight: 700;
 					@media screen and (max-width: $screen-sm) {
 						font-size: 28px;
+						background-color: white;
 					}
 				}
 				h2 {
