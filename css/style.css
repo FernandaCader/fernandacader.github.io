@@ -1298,6 +1298,72 @@ body.offcanvas {
     border-color: transparent;
     background: #f0f0f0; }
 
+    .clearfix:before,
+    .clearfix:after {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+    .clearfix:after {
+      clear: both;
+    }
+    .container{
+      width: 80%;
+      margin: 0 auto;
+      padding-left: 292px;
+    }
+    header{
+      width: 100%;
+      height: auto;
+      background: rgb(255, 255, 255);
+    }
+    .header-left,
+    .header-right{
+      position: relative;
+      color: white;
+      float: left;
+    }
+    .header-left{
+      width: 30%;
+    }
+    .header-right label{
+      position: absolute;
+      top: -3.7em;
+      right: 0;
+      cursor: pointer;
+    }
+    .header-right span{
+      position: relative;
+      width: 2em;
+      height: 2em;
+      background: rgba(255,255,255,.3);
+      -webkit-transition: all .3s ease;
+    }
+    .header-right span:hover{
+      background: rgba(255,255,255,.6);
+    }
+    .header-right span:before,
+    .header-right span:after{
+      content: '';
+      position: absolute;
+      width: 2em;
+      height: .5em;
+      top: 4px;
+      left: 0;
+      background: rgb(255, 255, 255);
+    }
+    .header-right span:after{
+      top: 14px;
+    }
+    .header-right{
+      width: 70%;
+      text-align: right;
+    }
+    #open{
+      display: none;
+      text-align: right;
+    }
+
 #message {
   height: 130px; }
 

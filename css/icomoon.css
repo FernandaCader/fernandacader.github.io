@@ -1517,12 +1517,15 @@
 }
 .icon-facebook2:before {
   content: "\eac0";
+  color: #0e76a8;
 }
 .icon-facebook22:before {
   content: "\eac1";
+  color: #0e76a8;
 }
 .icon-instagram:before {
   content: "\eac2";
+  color: #f09433
 }
 .icon-whatsapp:before {
   content: "\eac3";
@@ -1688,6 +1691,7 @@
 }
 .icon-linkedin2:before {
   content: "\eaf9";
+  color: #0e76a8;
 }
 .icon-linkedin22:before {
   content: "\eafa";
