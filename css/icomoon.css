@@ -1559,9 +1559,11 @@
 }
 .icon-youtube:before {
   content: "\eacd";
+  color: red;
 }
 .icon-youtube2:before {
   content: "\eace";
+  color: red;
 }
 .icon-twitch:before {
   content: "\eacf";
