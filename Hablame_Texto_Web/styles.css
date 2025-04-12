@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+    color: #333;
+}
+
+.app-content {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+
+/* Títulos y textos */
+.main-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    background: linear-gradient(90deg, #8e44ad 0%, #3498db 50%, #e84393 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #8e44ad; /* Violeta */
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 80%;
+    margin: 0 auto 2rem;
+}
+
+/* Botón de descarga */
+.btn-download {
+    background: linear-gradient(45deg, #8e44ad, #3498db); /* Violeta a turquesa */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(142, 68, 173, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn-download:hover {
+    background: linear-gradient(45deg, #9b59b6, #2980b9);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(142, 68, 173, 0.6);
+    color: white;
+}
+
+/* Footer */
+.app-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+    color: #666;
+}
+
+.app-footer p {
+    font-size: 0.9rem;
+}
+
+/* Botón PayPal personalizado */
+.btn-outline-primary {
+    color: #3498db; /* Turquesa */
+    border-color: #3498db;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .description {
+        font-size: 1rem;
+        max-width: 95%;
+    }
+    
+    .btn-download {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .app-content {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+}
