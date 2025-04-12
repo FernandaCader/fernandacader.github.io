@@ -3,7 +3,7 @@
 
 **Analista de Datos | Python | SQL | Power BI | Ciencia de Datos e Inteligencia Artificial**
 
-📍 Río Gallegos, Argentina  
+📍 Comandante Luis Piedra Buena, Argentina  
 📧 fernandaeugeniacader@gmail.com  
 🌐 [Portafolio Web](https://fernandacader.github.io/)  
 🔗 [LinkedIn](https://www.linkedin.com/in/fernandacader/) | [GitHub](https://github.com/FernandaCader)
