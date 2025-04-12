@@ -18,7 +18,7 @@ Soy Fernanda Cader Mellado, una apasionada Analista de Datos con formación en C
 
 ## 🚀 Proyectos Destacados
 
-### 📘 [Háblame Texto](https://fernandacader.github.io/hablame_texto/)
+### 📘 [Háblame Texto](https://github.com/FernandaCader/hablame-texto-exe)
 
 Una aplicación de escritorio desarrollada para facilitar la lectura de texto mediante síntesis de voz. Ideal para personas con dificultades visuales o de lectura. Disponible para descarga directa desde la página del proyecto.
 
