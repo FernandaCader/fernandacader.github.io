@@ -5,9 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Fernanda Cader Mellado</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Fernanda Cader Mellado - Analista de Datos</title>
+  <meta content="Portfolio profesional de Fernanda Cader Mellado, Analista de Datos especializada en machine learning y visualización de datos" name="description">
+  <meta content="analista de datos, data science, machine learning, visualización de datos, portfolio, argentina" name="keywords">
+  <meta name="author" content="Fernanda Cader Mellado">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Fernanda Cader Mellado - Analista de Datos">
+  <meta property="og:description" content="Portfolio profesional de Fernanda Cader Mellado, Analista de Datos especializada en machine learning y visualización de datos">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#27a776">
 
   <!-- Favicons -->
   <link href="assets/img/favicon-32x32.png" rel="icon">
@@ -33,62 +39,70 @@
 <body>
 
   <!-- ======= Encabezado ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top" role="banner">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0" aria-label="Inicio">
         <h1>Fernanda Cader Mellado</h1>
       </a>
 
-      <div class="header-social-links">
-        <a href="https://www.linkedin.com/in/fernandacader/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="https://www.wattpad.com/user/FernandaCader" class="wattpad"><i class="bi bi-book"></i></a>
-      </div>
+      <nav class="header-social-links" aria-label="Redes sociales">
+        <a href="https://www.linkedin.com/in/fernandacader/" class="linkedin" target="_blank" rel="noopener" aria-label="Perfil de LinkedIn">
+          <i class="bi bi-linkedin" aria-hidden="true"></i>
+          <span class="visually-hidden">LinkedIn</span>
+        </a>
+
+      </nav>
 
     </div>
-  </header><!-- Fin Encabezado -->
+  </header>
 
   <!-- ======= Sección Hero ======= -->
-  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500" role="region" aria-label="Introducción">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
-          <img src="assets\img\gallery\perfil.jpg" alt="Fernanda Cader Mellado" class="rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-          <h2>Soy <span>Fernanda Cader Mellado</span>, Analista de Datos de Argentina</h2>
-          <a href="https://gdurl.com/bKmk/download" class="btn-get-started">Currículum</a>
-          <a href="https://github.com/FernandaCader/" class="btn-get-started">GitHub</a>
+          <img src="assets/img/gallery/perfil.jpg" alt="Fernanda Cader Mellado - Analista de Datos" class="profile-image" loading="eager" fetchpriority="high">
+          <h2>Analítica, IA y software libre, para un futuro más accesible.</h2>
+            <a href="https://gdurl.com/nR9y/download" class="btn-get-started" download aria-label="Descargar Currículum">Currículum</a>
+            <a href="https://github.com/FernandaCader/" class="btn-get-started" target="_blank" rel="noopener" aria-label="Ver perfil de GitHub">GitHub</a>
+            <a href="about.html" class="btn-get-started" aria-label="Conocer más sobre Fernanda">Sobre Mí</a>
+          </div>
         </div>
       </div>
     </div>
-  </section><!-- Fin Sección Hero -->
+  </section>
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+  <main id="main" data-aos="fade" data-aos-delay="1500" role="main">
 
      <!-- ======= Sección de Contacto ======= -->
-     <section id="contact" class="contact">
+     <section id="contact" class="contact" aria-label="Información de contacto">
       <div class="container">
 
         <div class="row gy-4 justify-content-center">
 
           <div class="col-lg-3">
             <div class="info-item d-flex">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <i class="bi bi-geo-alt flex-shrink-0" aria-hidden="true"></i>
               <div>
-                <h4>Ubicación:</h4>
+                <h4>Ubicación</h4>
                 <p>Comandante Luis Piedra Buena, Argentina</p>
               </div>
             </div>
-          </div><!-- Fin Elemento de Información -->
+          </div>
 
           <div class="col-lg-3">
             <div class="info-item d-flex">
-              <i class="bi bi-phone flex-shrink-0"></i>
-              <div>
-                <h4>Email:</h4>
-                <a href="mailto:fernandaeugeniacader@gmail.com">fernandaeugeniacader@gmail.com</a>
+              <i class="bi bi-envelope flex-shrink-0" aria-hidden="true"></i>
+              <div class="info-content">
+                <h4>Email</h4>
+                <a href="mailto:fernandaeugeniacader@gmail.com" 
+                   aria-label="Enviar email a Fernanda Cader">
+                   fernandaeugeniacader@gmail.com
+                </a>
               </div>
             </div>
-          </div><!-- Fin Elemento de Información -->
+          </div>
 
         </div>
 
@@ -96,66 +110,68 @@
     </section><!-- Fin Sección de Contacto -->
 
     <!-- ======= Sección de Galería ======= -->
-    <section id="gallery" class="gallery">
+    <section id="gallery" class="gallery" aria-label="Galería de proyectos">
       <div class="container-fluid">
 
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/tesla.jpg" class="img-fluid" alt="">
+              <img src="assets/img/gallery/tesla.jpg" class="img-fluid" alt="Gráfico de predicción de precios de acciones de Tesla" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/tesla.jpg" title="Predicción del Precio de las Acciones de Tesla: En este proyecto, aprendí a importar bibliotecas y conjuntos de datos y crear un modelo de machine learning de Facebook Prophet para prever el precio de Tesla a 30 días en el futuro. También aprendí a extraer datos financieros en Google Sheets usando Google Finance y comparé los datos pronosticados con los reales, evaluando el rendimiento del modelo." class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="https://colab.research.google.com/gist/FernandaCader/1af24830f4191e77871c869864d8dfbb/forecasting-tesla-30-days.ipynb#scrollTo=t_UTkwRGsY64" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="assets/img/gallery/tesla.jpg" title="Predicción del Precio de las Acciones de Tesla" class="glightbox preview-link" aria-label="Ver imagen del proyecto de predicción de Tesla"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
+                <a href="https://colab.research.google.com/gist/FernandaCader/1af24830f4191e77871c869864d8dfbb/forecasting-tesla-30-days.ipynb" class="details-link" target="_blank" rel="noopener" aria-label="Ver código del proyecto de predicción de Tesla"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
               </div>
             </div>
-          </div><!-- Fin Elemento de Galería -->
+          </div>
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/sales.png" class="img-fluid" alt="">
+              <img src="assets/img/gallery/sales.png" class="img-fluid" alt="Gráfico de análisis de ventas y publicidad" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/sales.png" title="Análisis y Proyección de Ventas: Impacto del Presupuesto de Publicidad en el Crecimiento Empresarial es un estudio basado en datos que analiza la correlación entre el gasto en publicidad y las ventas, proporciona proyecciones de ventas y sugiere estrategias de asignación de presupuesto para maximizar el crecimiento." class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Sales%20Analysis%20and%20Projection%20Impact%20of%20Advertising%20Budget%20on%20Business%20Growth.ipynb" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="assets/img/gallery/sales.png" title="Análisis y Proyección de Ventas" class="glightbox preview-link" aria-label="Ver imagen del proyecto de análisis de ventas"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
+                <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Sales%20Analysis%20and%20Projection%20Impact%20of%20Advertising%20Budget%20on%20Business%20Growth.ipynb" class="details-link" target="_blank" rel="noopener" aria-label="Ver código del proyecto de análisis de ventas"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
               </div>
             </div>
-          </div><!-- Fin Elemento de Galería -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/Heart.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/Heart.png" title="Predicción de Enfermedades del Corazón Usando Machine Learning: En este repositorio, exploraremos técnicas de Análisis de Datos Exploratorios (EDA) y demostraremos la fase de entrenamiento del modelo usando regresión logística como un ejemplo de un modelo de machine learning. El objetivo es proporcionar una comprensión integral de los datos y mostrar la implementación de un modelo de regresión logística." class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Prediction%20of%20Heart%20Diseases%20Using%20Machine%20Learning.ipynb" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- Fin Elemento de Galería -->
-          
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/UI-responsive.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/UI-responsive.png" title="Registros de Empleados: Esta es una aplicación gráfica en Python que gestiona una base de datos de empleados. La aplicación maneja tareas como establecer una conexión con la base de datos, crear una tabla de empleados, insertar, consultar, actualizar y eliminar registros e información de empleados dentro de la empresa." class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="https://github.com/FernandaCader/Employee-Records/" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- Fin Elemento de Galería -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/powerbi.png" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/powerbi.png" title="Análisis de Ventas en Power BI" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="https://app.powerbi.com/links/NBeLokT4Mv?ctid=ed14484d-ce76-4d44-8d04-db764b68edaf&pbi_source=linkShare&bookmarkGuid=d6a7ae0a-039a-4bb2-adfe-40d745850bb1" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- Fin Elemento de Galería -->
+          </div>
 
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="assets/img/gallery/hablame.png" class="img-fluid" alt="">
+              <img src="assets/img/gallery/Heart.png" class="img-fluid" alt="Visualización de datos de predicción de enfermedades cardíacas" loading="lazy">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/hablame.png" title="Háblame Texto Web: Proyecto de conversión de texto a voz" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="Hablame_Texto_Web/index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="assets/img/gallery/Heart.png" title="Predicción de Enfermedades del Corazón" class="glightbox preview-link" aria-label="Ver imagen del proyecto de predicción de enfermedades cardíacas"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
+                <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Prediction%20of%20Heart%20Diseases%20Using%20Machine%20Learning.ipynb" class="details-link" target="_blank" rel="noopener" aria-label="Ver código del proyecto de predicción de enfermedades cardíacas"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
               </div>
             </div>
-          </div><!-- Fin Elemento de Galería -->
+          </div>
+          
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/img/gallery/UI-responsive.png" class="img-fluid" alt="Interfaz de la aplicación de registros de empleados" loading="lazy">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/img/gallery/UI-responsive.png" title="Aplicación de Registros de Empleados" class="glightbox preview-link" aria-label="Ver imagen de la aplicación de registros"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
+                <a href="https://github.com/FernandaCader/Employee-Records/" class="details-link" target="_blank" rel="noopener" aria-label="Ver código de la aplicación de registros"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/img/gallery/powerbi.png" class="img-fluid" alt="Dashboard de análisis de ventas en Power BI" loading="lazy">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/img/gallery/powerbi.png" title="Análisis de Ventas en Power BI" class="glightbox preview-link" aria-label="Ver imagen del dashboard de Power BI"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
+                <a href="https://app.powerbi.com/links/NBeLokT4Mv?ctid=ed14484d-ce76-4d44-8d04-db764b68edaf&pbi_source=linkShare&bookmarkGuid=d6a7ae0a-039a-4bb2-adfe-40d745850bb1" class="details-link" target="_blank" rel="noopener" aria-label="Ver dashboard interactivo en Power BI"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="gallery-item h-100">
+              <img src="assets/img/gallery/hablame.png" class="img-fluid" alt="Interfaz de la aplicación Háblame Texto Web" loading="lazy">
+              <div class="gallery-links d-flex align-items-center justify-content-center">
+                <a href="assets/img/gallery/hablame.png" title="Háblame Texto Web" class="glightbox preview-link" aria-label="Ver imagen del proyecto Háblame Texto"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
+                <a href="https://huggingface.co/spaces/Feefer96/hablame-texto" class="details-link" target="_blank" rel="noopener" aria-label="Ir a la aplicación Háblame Texto"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
 
         </div>
 
@@ -165,18 +181,20 @@
   </main><!-- Fin #main -->
 
   <!-- ======= Pie de Página ======= -->
-  <footer id="footer" class="footer">
+  <footer id="footer" class="footer" role="contentinfo">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Fernanda Cader Mellado</span></strong>. Todos los derechos reservados
+        <p>&copy; <time datetime="2025">2025</time> <strong>Fernanda Cader Mellado</strong>. Todos los derechos reservados</p>
       </div>
-      
     </div>
-  </footer><!-- Fin Pie de Página -->
+  </footer>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Volver arriba" role="button">
+    <i class="bi bi-arrow-up-short" aria-hidden="true"></i>
+    <span class="visually-hidden">Volver al inicio de la página</span>
+  </a>
 
-  <div id="preloader">
+  <div id="preloader" aria-hidden="true">
     <div class="line"></div>
   </div>
 
