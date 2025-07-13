@@ -18,9 +18,17 @@ Soy Fernanda Cader Mellado, una apasionada Analista de Datos con formación en C
 
 ## 🚀 Proyectos Destacados
 
-### 📘 [Háblame Texto](https://github.com/FernandaCader/hablame-texto-exe)
+### 📘 [Háblame Texto](https://huggingface.co/spaces/Feefer96/hablame-texto)
 
-Una aplicación de escritorio desarrollada para facilitar la lectura de texto mediante síntesis de voz. Ideal para personas con dificultades visuales o de lectura. Disponible para descarga directa desde la página del proyecto.
+Una aplicación web desarrollada para convertir audios en texto mediante reconocimiento de voz. Ideal para personas con dificultades auditivas, necesidades de transcripción o accesibilidad digital. Está disponible públicamente en Hugging Face Spaces y funciona directamente desde el navegador, sin necesidad de instalación.
+
+🔧 **Tecnologías utilizadas**:
+- Python
+- Gradio
+- Whisper (modelo de OpenAI)
+- Hugging Face Spaces
+
+🚀 [Probar ahora](https://huggingface.co/spaces/Feefer96/hablame-texto)
 
 ### 📚 [Recursos para Estudiar Ciencias de Datos](https://github.com/FernandaCader/recursos-datos)
 
