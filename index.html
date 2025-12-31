@@ -1,211 +1,608 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Fernanda Cader Mellado - Analista de Datos</title>
-  <meta content="Portfolio profesional de Fernanda Cader Mellado, Analista de Datos especializada en machine learning y visualización de datos" name="description">
-  <meta content="analista de datos, data science, machine learning, visualización de datos, portfolio, argentina" name="keywords">
-  <meta name="author" content="Fernanda Cader Mellado">
-  <meta name="robots" content="index, follow">
-  <meta property="og:title" content="Fernanda Cader Mellado - Analista de Datos">
-  <meta property="og:description" content="Portfolio profesional de Fernanda Cader Mellado, Analista de Datos especializada en machine learning y visualización de datos">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#27a776">
+  <title>Fernanda Cader - Portafolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon-32x32.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon2.png" rel="icon">
+  <link href="assets/img/apple-touch-icon2.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Archivos CSS de proveedores -->
+  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Archivo CSS principal de la plantilla -->
+  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="index-page">
 
-  <!-- ======= Encabezado ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top" role="banner">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0" aria-label="Inicio">
-        <h1>Fernanda Cader Mellado</h1>
-      </a>
-
-      <nav class="header-social-links" aria-label="Redes sociales">
-        <a href="https://www.linkedin.com/in/fernandacader/" class="linkedin" target="_blank" rel="noopener" aria-label="Perfil de LinkedIn">
-          <i class="bi bi-linkedin" aria-hidden="true"></i>
-          <span class="visually-hidden">LinkedIn</span>
-        </a>
-
-      </nav>
-
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
     </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Fernanda Cader Portfolio</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/fernandacader/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
   </header>
 
-  <!-- ======= Sección Hero ======= -->
-  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500" role="region" aria-label="Introducción">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
-          <img src="assets/img/gallery/perfil.jpg" alt="Fernanda Cader Mellado - Analista de Datos" class="profile-image" loading="eager" fetchpriority="high">
-          <h2>Analista de Datos</h2>
-            <a href="https://gdurl.com/xe_D/download" class="btn-get-started" download aria-label="Descargar Currículum">Currículum</a>
-            <a href="https://github.com/FernandaCader/" class="btn-get-started" target="_blank" rel="noopener" aria-label="Ver perfil de GitHub">GitHub</a>
-            <a href="about.html" class="btn-get-started" aria-label="Conocer más sobre Fernanda">Sobre Mí</a>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.png" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Fernanda Cader</h2>
+        <p>I'm <span class="typed" data-typed-items="Data Analyst, Freelancer, Writer, Gamer">Data Analyst</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Data Analyst</h2>
+            <p class="py-3">
+              I am a Data Science and AI professional with experience in data analysis, machine learning, and building practical tech solutions. I work with Python, SQL, and Power BI, and I advocate for open-source tools.
+            </p>
+            <p class="py-1">
+              I have developed projects such as transcription apps using Whisper and data analysis dashboards for public and commercial datasets. I aim to create accessible solutions with real impact.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>21 August 1996</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://fernandacader.github.io/" target="_blank">https://fernandacader.github.io/</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+54 2966 712814</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Santa Cruz, Argentina</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>29</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Associate Degree in Data Science and Artificial intelligence</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>fernandaeugeniacader@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I am seeking opportunities to keep growing in data analysis and, in the future, contribute to education. In my free time, I enjoy my two dogs, reading, volleyball, and creative activities.
+            </p>
+            <p class="py-0">
+              I’m excited to join teams focused on inclusion, innovation, and social impact.
+            </p>
           </div>
         </div>
+
       </div>
-    </div>
-  </section>
 
-  <main id="main" data-aos="fade" data-aos-delay="1500" role="main">
+    </section><!-- /About Section -->
 
-     <!-- ======= Sección de Contacto ======= -->
-     <section id="contact" class="contact" aria-label="Información de contacto">
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="skills-grid">
+          <div class="skill-card"><i class="bi bi-database"></i><span>SQL</span></div>
+          <div class="skill-card"><i class="bi bi-code-slash"></i><span>Python</span></div>
+          <div class="skill-card"><i class="bi bi-bar-chart-line"></i><span>Power BI (DAX)</span></div>
+          <div class="skill-card"><i class="bi bi-bar-chart-line"></i><span>Tableau</span></div>
+          <div class="skill-card"><i class="bi bi-terminal"></i><span>Git</span></div>
+          <div class="skill-card"><i class="bi bi-file-earmark-spreadsheet"></i><span>Excel</span></div>
+        </div>
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Junior Business Intelligence Data Analyst with experience in dashboarding, reporting, and data preparation. Focused on Power BI, SQL, and Python to support business decisions with clear, actionable insights.</p>
+      </div><!-- End Section Title -->
+
       <div class="container">
 
-        <div class="row gy-4 justify-content-center">
+        <div class="row">
 
-          <div class="col-lg-3">
-            <div class="info-item d-flex">
-              <i class="bi bi-geo-alt flex-shrink-0" aria-hidden="true"></i>
-              <div>
-                <h4>Ubicación</h4>
-                <p>Comandante Luis Piedra Buena, Argentina</p>
-              </div>
-            </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Fernanda Cader</h4>
+              <p><em>Junior Business Intelligence Data Analyst focused on transforming raw data into actionable insights. Hands-on with Power BI (data modeling, DAX fundamentals), SQL querying and joins, and Python for data cleaning, exploratory analysis, and automation.</em></p>
+              <ul>
+                <li>Comandante Luis Piedrabuena, Santa Cruz, Argentina</li>
+                <li>(54) 2966 712814</li>
+                <li>fernandaeugeniacader@gmail.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Associate in Data Science &amp; Artificial Intelligence</h4>
+              <h5>2022 - 2025</h5>
+              <p><em>Instituto Superior De Enseñanza Técnica, Santa Cruz, ARG</em></p>
+              <p>This career provides the tools to become a data scientist specialized in AI.
+</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Google Data Analytics Professional Certificate</h4>
+              <h5>2022</h5>
+              <p><em>Coursera</em></p>
+              <p>Completed the Google Data Analytics Professional Certificate, an eight-course program with interactive, practice-based assessments focused on preparing for entry-level data analysis roles. Developed proficiency in spreadsheets, SQL, Tableau, and R, and learned to prepare, process, analyze, and communicate data to support informed decision-making.
+</p>
+            </div><!-- Edn Resume Item -->
+
           </div>
 
-          <div class="col-lg-3">
-            <div class="info-item d-flex">
-              <i class="bi bi-envelope flex-shrink-0" aria-hidden="true"></i>
-              <div class="info-content">
-                <h4>Email</h4>
-                <a href="mailto:fernandaeugeniacader@gmail.com" 
-                   aria-label="Enviar email a Fernanda Cader">
-                   fernandaeugeniacader@gmail.com
-                </a>
-              </div>
-            </div>
-          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Spanish LATAM Freelance Writer</h4>
+              <h5>May 2025 - Present</h5>
+              <p><em>Remote</em></p>
+              <ul>
+                <li>I work as a freelance writer for Outlier, a company that trains generative AI models for some of the world’s leading tech firms. My role involves enhancing the quality and accuracy of AI-generated content in Latin American Spanish through tasks such as:</li>
+                <li>Ranking and evaluating AI-generated responses based on coherence, clarity, and relevance.</li>
+                <li>Writing short creative pieces in Latin American Spanish on assigned topics.</li>
+                <li>Verifying the factual accuracy and cultural appropriateness of AI-generated texts.
+</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
 
-        </div>
+            <div class="resume-item">
+              <h4>Salesforce Developer (Internship)</h4>
+              <h5>Mar 2023 – Jul 2023 · 5 mos</h5>
+              <p><em>Guayerd · Internship</em></p>
+              <ul>
+                <li>Collaborated on a secure donation platform for Guay Foundation, integrating web development with CRM.</li>
+                <li>Built and maintained a test environment to validate updates before deployment.</li>
+                <li>Developed the frontend using HTML, CSS, and JavaScript for a responsive interface.</li>
+                <li>Utilized Salesforce CRM to manage donor data, create custom objects, and automate workflows with Flows.</li>
+                <li>Implemented backend logic with Apex and performed data queries using SOQL.</li>
+                <li>Delivered a complete solution improving online donation processing and mission impact.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
 
-      </div>
-    </section><!-- Fin Sección de Contacto -->
-
-    <!-- ======= Sección de Galería ======= -->
-    <section id="gallery" class="gallery" aria-label="Galería de proyectos">
-      <div class="container-fluid">
-
-        <div class="row gy-4 justify-content-center">
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/tesla.jpg" class="img-fluid" alt="Gráfico de predicción de precios de acciones de Tesla" loading="lazy">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/tesla.jpg" title="Predicción del Precio de las Acciones de Tesla" class="glightbox preview-link" aria-label="Ver imagen del proyecto de predicción de Tesla"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
-                <a href="https://colab.research.google.com/gist/FernandaCader/1af24830f4191e77871c869864d8dfbb/forecasting-tesla-30-days.ipynb" class="details-link" target="_blank" rel="noopener" aria-label="Ver código del proyecto de predicción de Tesla"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/sales.png" class="img-fluid" alt="Gráfico de análisis de ventas y publicidad" loading="lazy">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/sales.png" title="Análisis y Proyección de Ventas" class="glightbox preview-link" aria-label="Ver imagen del proyecto de análisis de ventas"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
-                <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Sales%20Analysis%20and%20Projection%20Impact%20of%20Advertising%20Budget%20on%20Business%20Growth.ipynb" class="details-link" target="_blank" rel="noopener" aria-label="Ver código del proyecto de análisis de ventas"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/Heart.png" class="img-fluid" alt="Visualización de datos de predicción de enfermedades cardíacas" loading="lazy">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/Heart.png" title="Predicción de Enfermedades del Corazón" class="glightbox preview-link" aria-label="Ver imagen del proyecto de predicción de enfermedades cardíacas"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
-                <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Prediction%20of%20Heart%20Diseases%20Using%20Machine%20Learning.ipynb" class="details-link" target="_blank" rel="noopener" aria-label="Ver código del proyecto de predicción de enfermedades cardíacas"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/UI-responsive.png" class="img-fluid" alt="Interfaz de la aplicación de registros de empleados" loading="lazy">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/UI-responsive.png" title="Aplicación de Registros de Empleados" class="glightbox preview-link" aria-label="Ver imagen de la aplicación de registros"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
-                <a href="https://github.com/FernandaCader/Employee-Records/" class="details-link" target="_blank" rel="noopener" aria-label="Ver código de la aplicación de registros"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/powerbi.png" class="img-fluid" alt="Dashboard de análisis de ventas en Power BI" loading="lazy">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/powerbi.png" title="Análisis de Ventas en Power BI" class="glightbox preview-link" aria-label="Ver imagen del dashboard de Power BI"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
-                <a href="https://app.powerbi.com/links/NBeLokT4Mv?ctid=ed14484d-ce76-4d44-8d04-db764b68edaf&pbi_source=linkShare&bookmarkGuid=d6a7ae0a-039a-4bb2-adfe-40d745850bb1" class="details-link" target="_blank" rel="noopener" aria-label="Ver dashboard interactivo en Power BI"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/hablame.png" class="img-fluid" alt="Interfaz de la aplicación Háblame Texto Web" loading="lazy">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/hablame.png" title="Háblame Texto Web" class="glightbox preview-link" aria-label="Ver imagen del proyecto Háblame Texto"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></a>
-                <a href="https://huggingface.co/spaces/Feefer96/hablame-texto" class="details-link" target="_blank" rel="noopener" aria-label="Ir a la aplicación Háblame Texto"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
-              </div>
-            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- Fin Sección de Galería -->
 
-  </main><!-- Fin #main -->
+    </section><!-- /Resume Section -->
 
-  <!-- ======= Pie de Página ======= -->
-  <footer id="footer" class="footer" role="contentinfo">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Business Intelligence projects focused on dashboarding, reporting, and data preparation. Power BI with DAX fundamentals, SQL for clean reporting, and Python pipelines for data quality and automation.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/sales.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Sales Performance Analysis and Projection</h4>
+                  <p>This project analyzes monthly sales performance by comparing actual sales data with projected sales scenarios.</p>
+                  <a href="assets/img/portfolio/sales.png" title="The objective of the analysis is to assess how different growth assumptions impact revenue over time, identify peak performance periods, and support data-driven decision-making for future sales planning. By contrasting real results with projections, the project demonstrates how scenario analysis can be used to anticipate outcomes and manage business expectations." data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Sales%20Analysis%20and%20Projection%20Impact%20of%20Advertising%20Budget%20on%20Business%20Growth.ipynb" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/tesla.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Tesla Stock Price Trend Analysis</h4>
+                  <p>This project analyzes the historical closing prices of Tesla stock over time to identify trends, volatility, and overall market behavior.</p>
+                  <a href="assets/img/portfolio/tesla.jpg" title="The analysis focuses on understanding stock performance dynamics and how prices evolve in response to market conditions. This type of time series visualization is commonly used in financial analysis to support investment insights, trend identification, and exploratory analysis of market data.
+
+By combining financial data with effective visual storytelling, the project demonstrates the ability to transform raw market data into interpretable insights." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://colab.research.google.com/gist/FernandaCader/1af24830f4191e77871c869864d8dfbb/forecasting-tesla-30-days.ipynb" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/bbdd.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Employee Management System with Database Integration</h4>
+                  <p>This project is a desktop-based employee management system designed to perform full CRUD operations (Create, Read, Update, Delete) on employee records.</p>
+                  <a href="assets/img/portfolio/bbdd.png" title="The system displays query results in real time and supports exporting employee data to external formats such as PDF, enabling basic reporting and data portability. This project demonstrates practical database management concepts, structured data handling, and user interaction through a GUI.
+
+It reflects a real-world administrative use case, combining backend database logic with a user-friendly frontend to manage organizational data efficiently." data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/FernandaCader/Employee-Records/" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/hablame.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Háblame Texto</h4>
+                  <p>Háblame Texto is a web application developed to convert audio into text using speech recognition.</p>
+                  <a href="assets/img/portfolio/hablame.png" title="Háblame Texto is a web application developed to convert audio into text using speech recognition. It is designed to support users with hearing difficulties, transcription needs, or digital accessibility requirements. The application runs directly in a web browser without requiring installation and is publicly available on Hugging Face Spaces.
+Technologies used: Python, Gradio, Whisper (OpenAI model), Hugging Face Spaces." data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://huggingface.co/spaces/Feefer96/hablame-texto" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/powerbi.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Power BI Analysis</h4>
+                  <p>Financial Performance and Accounts Receivable Dashboard</p>
+                  <a href="assets/img/portfolio/powerbi.png" title="Monitor the financial health of the business by tracking Sales (Ventas) vs. Collections (Pagos), analyzing debt levels, and identifying geographic performance trends. It serves as a decision-making tool for credit and collections departments." data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://app.powerbi.com/links/NBeLokT4Mv?ctid=ed14484d-ce76-4d44-8d04-db764b68edaf&pbi_source=linkShare&bookmarkGuid=d6a7ae0a-039a-4bb2-adfe-40d745850bb1" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/heart.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Heart Disease Distribution Analysis</h4>
+                  <p>Exploratory analysis of heart disease distribution using Python and pandas, visualizing key metrics and patterns in the dataset.</p>
+                  <a href="assets/img/portfolio/heart.png" title="This project explores the distribution of heart disease outcomes within a clinical dataset. The visualization presents the frequency of patients across different target categories, allowing for a clear understanding of class imbalance and prevalence patterns related to heart conditions." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Prediction%20of%20Heart%20Diseases%20Using%20Machine%20Learning.ipynb" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>   
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+<!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <span class="details-link disabled"><i class="bi bi-link-45deg"></i></span>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+<!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <span class="details-link disabled"><i class="bi bi-link-45deg"></i></span>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+<!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <span class="details-link disabled"><i class="bi bi-link-45deg"></i></span>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+<!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <span class="details-link disabled"><i class="bi bi-link-45deg"></i></span>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+<!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <span class="details-link disabled"><i class="bi bi-link-45deg"></i></span>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+<!--
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <span class="details-link disabled"><i class="bi bi-link-45deg"></i></span>
+                </div>
+              </div>
+            </div> End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>BI services oriented to dashboarding, reporting, and data preparation with Power BI, SQL and Python.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div>
+              <h4 class="title">Dashboard Development (Power BI)</h4>
+              <p class="description">Interactive dashboards, data models and KPI definitions to support business decisions.</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+            <div>
+              <h4 class="title">SQL Reporting & Data Queries</h4>
+              <p class="description">Clean queries, joins, filters and aggregations for reliable reporting and analytics.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+            <div>
+              <h4 class="title">Python Data Prep & Automation</h4>
+              <p class="description">Data cleaning, transformation and reproducible EDA pipelines using pandas.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+            <div>
+              <h4 class="title">KPI Definition & Tracking</h4>
+              <p class="description">Work with stakeholders to define measurable KPIs and track outcomes over time.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+            <div>
+              <h4 class="title">Visualization & Storytelling</h4>
+              <p class="description">Deliver clear visuals in Power BI/Tableau using best practices for decision-making.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+            <div>
+              <h4 class="title">ETL & Data Quality Basics</h4>
+              <p class="description">Set up lightweight pipelines and quality checks to improve data reliability.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Based in Argentina. Open to remote collaboration for BI/reporting roles.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Comandante Luis Piedrabuena, Santa Cruz, Argentina</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call</h3>
+                  <p><a href="https://wa.me/542966712814" target="_blank" rel="noopener">+54 2966 712814</a></p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p><a href="mailto:fernandaeugeniacader@gmail.com">fernandaeugeniacader@gmail.com</a></p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20523.60115665519!2d-68.9379377643342!3d-49.98416947641018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdc773db9bfbd627%3A0xeebe9f7017852bbb!2sCmte.%20Luis%20Piedrabuena%2C%20Santa%20Cruz!5e0!3m2!1ses-419!2sar!4v1767138757948!5m2!1ses-419!2sar" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+  <form
+    action="https://formsubmit.co/fernandaeugeniacader@gmail.com"
+    method="POST"
+    data-aos="fade-up"
+    data-aos-delay="200"
+    class="contact-form form-card"
+  >
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://fernandacader.github.io/thanks.html">
+
+    <div class="row gy-4">
+
+      <div class="col-md-6">
+        <label for="name-field" class="pb-2">Your Name</label>
+        <input type="text" name="name" id="name-field" class="form-control" placeholder="Your name" required>
+      </div>
+
+      <div class="col-md-6">
+        <label for="email-field" class="pb-2">Your Email</label>
+        <input type="email" name="email" id="email-field" class="form-control" placeholder="you@example.com" required>
+      </div>
+
+      <div class="col-md-12">
+        <label for="subject-field" class="pb-2">Subject</label>
+        <input type="text" name="subject" id="subject-field" class="form-control" placeholder="Subject" required>
+      </div>
+
+      <div class="col-md-12">
+        <label for="message-field" class="pb-2">Message</label>
+        <textarea name="message" id="message-field" rows="10" class="form-control" placeholder="Write your message..." required></textarea>
+      </div>
+
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-primary contact-btn"><i class="bi bi-send"></i> Send Message</button>
+      </div>
+
+    </div>
+  </form>
+</div>
+<!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
     <div class="container">
-      <div class="copyright">
-        <p>&copy; <time datetime="2025">2025</time> <strong>Fernanda Cader Mellado</strong>. Todos los derechos reservados</p>
+      <div class="copyright text-center ">
+        <p>Fernanda Cader Portfolio</p>
       </div>
     </div>
+
   </footer>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Volver arriba" role="button">
-    <i class="bi bi-arrow-up-short" aria-hidden="true"></i>
-    <span class="visually-hidden">Volver al inicio de la página</span>
-  </a>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <div id="preloader" aria-hidden="true">
-    <div class="line"></div>
-  </div>
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-  <!-- Archivos JS de proveedores -->
+  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Archivo JS principal de la plantilla -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
