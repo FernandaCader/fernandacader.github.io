@@ -1,67 +1,128 @@
+# Fernanda Eugenia Cader Mellado
 
-# 👩‍💻 Fernanda Cader Mellado
+**Junior Data Analyst | Business Intelligence | Python | SQL | Power BI | Data Science & AI**
 
-**Analista de Datos | Python | SQL | Power BI | Ciencia de Datos e Inteligencia Artificial**
-
-📍 Comandante Luis Piedra Buena, Argentina  
-📧 fernandaeugeniacader@gmail.com  
-🌐 [Portafolio Web](https://fernandacader.github.io/)  
-🔗 [LinkedIn](https://www.linkedin.com/in/fernandacader/) | [GitHub](https://github.com/FernandaCader)
-
----
-
-## 🎯 Sobre mí
-
-Soy Fernanda Cader Mellado, una apasionada Analista de Datos con formación en Ciencia de Datos e Inteligencia Artificial. Me especializo en el análisis y visualización de datos utilizando herramientas como Python, SQL y Power BI. Además, tengo experiencia en la creación de recursos educativos y en la promoción de la educación en ciencia de datos a través de iniciativas comunitarias.
+**Location:** Comandante Luis Piedra Buena, Argentina
+**Email:** [fernandaeugeniacader@gmail.com](mailto:fernandaeugeniacader@gmail.com)
+**Portfolio:** [https://fernandacader.github.io](https://fernandacader.github.io)
+**LinkedIn:** [https://www.linkedin.com/in/fernandacader](https://www.linkedin.com/in/fernandacader)
+**GitHub:** [https://github.com/FernandaCader](https://github.com/FernandaCader)
 
 ---
 
-## 🚀 Proyectos Destacados
+## Professional Summary
 
-### 📘 [Háblame Texto](https://huggingface.co/spaces/Feefer96/hablame-texto)
-
-Una aplicación web desarrollada para convertir audios en texto mediante reconocimiento de voz. Ideal para personas con dificultades auditivas, necesidades de transcripción o accesibilidad digital. Está disponible públicamente en Hugging Face Spaces y funciona directamente desde el navegador, sin necesidad de instalación.
-
-🔧 **Tecnologías utilizadas**:
-- Python
-- Gradio
-- Whisper (modelo de OpenAI)
-- Hugging Face Spaces
-
-🚀 [Probar ahora](https://huggingface.co/spaces/Feefer96/hablame-texto)
-
-### 📚 [Recursos para Estudiar Ciencias de Datos](https://github.com/FernandaCader/recursos-datos)
-
-Una recopilación exhaustiva de recursos gratuitos para estudiantes de ciencia de datos. Incluye cursos, tutoriales, libros y herramientas recomendadas, organizada en colaboración con la comunidad "Datos Para Todos".
-
-### 🎓 [InSET – Trabajos Académicos](https://github.com/FernandaCader/InSET)
-
-Repositorio que contiene proyectos y trabajos realizados durante mi formación en la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial. Incluye análisis matemático, estadística, programación y más.
+Junior Data Analyst with a technical background in Data Science and Artificial Intelligence.
+Experienced in data analysis, data cleaning, visualization, and reporting using Python, SQL, and Power BI.
+Strong interest in Business Intelligence, data-driven decision making, and continuous learning.
+Experience creating educational resources and collaborating in community-driven data initiatives.
 
 ---
 
-## 🛠️ Habilidades Técnicas
+## Featured Projects
 
-- **Lenguajes de Programación:** Python, SQL
-- **Herramientas de Visualización:** Power BI, Tableau
-- **Análisis de Datos:** Pandas, NumPy, Scikit-learn
-- **Bases de Datos:** MySQL, PostgreSQL
-- **Otros:** Git, GitHub, Jupyter Notebooks
+### Hablame Texto – Speech-to-Text Web Application
 
----
+**Link:** [https://huggingface.co/spaces/Feefer96/hablame-texto](https://huggingface.co/spaces/Feefer96/hablame-texto)
 
-## 🌐 Comunidad y Educación
+Web application that converts audio files into text using automatic speech recognition.
+Designed to improve accessibility and support transcription needs.
 
-Fundadora de la comunidad "Datos Para Todos", una iniciativa que busca democratizar el acceso a la educación en ciencia de datos. A través de esta comunidad, comparto recursos, organizo talleres y promuevo la colaboración entre estudiantes y profesionales del área.
+**Key responsibilities and features:**
 
----
+* Implemented speech-to-text processing using OpenAI Whisper
+* Built an interactive web interface with Gradio
+* Deployed the application on Hugging Face Spaces
+* Focused on usability, accessibility, and real-world application
 
-## 📫 Contacto
-
-- **Email:** fernandaeugeniacader@gmail.com
-- **LinkedIn:** [linkedin.com/in/fernandacader](https://www.linkedin.com/in/fernandacader/)
-- **GitHub:** [github.com/FernandaCader](https://github.com/FernandaCader)
+**Technologies:** Python, Whisper, Gradio, Hugging Face Spaces
 
 ---
 
-¡Gracias por visitar mi portafolio! Estoy abierta a oportunidades de colaboración, proyectos freelance y roles en el área de análisis de datos. ¡No dudes en contactarme!
+### Data Science Study Resources Repository
+
+**Link:** [https://github.com/FernandaCader/recursos-datos](https://github.com/FernandaCader/recursos-datos)
+
+Curated repository of free learning resources for data science students.
+
+**Highlights:**
+
+* Organized courses, tutorials, books, and tools
+* Community-oriented and continuously updated
+* Created in collaboration with the “Datos Para Todos” initiative
+
+**Technologies:** Git, GitHub, Markdown
+
+---
+
+### InSET – Academic Projects
+
+**Link:** [https://github.com/FernandaCader/InSET](https://github.com/FernandaCader/InSET)
+
+Repository containing academic projects completed during the Higher Technical Degree in Data Science and Artificial Intelligence.
+
+**Areas covered:**
+
+* Data analysis and statistics
+* Mathematical analysis
+* Python programming
+* Applied data science projects
+
+---
+
+## Technical Skills
+
+**Programming Languages:**
+
+* Python
+* SQL
+
+**Data Analysis & Libraries:**
+
+* Pandas
+* NumPy
+* Scikit-learn
+
+**Business Intelligence & Visualization:**
+
+* Power BI
+* Tableau
+
+**Databases:**
+
+* MySQL
+* PostgreSQL
+
+**Tools & Platforms:**
+
+* Git
+* GitHub
+* Jupyter Notebooks
+
+---
+
+## Education
+
+**Higher Technical Degree in Data Science and Artificial Intelligence**
+InSET (Argentina)
+
+---
+
+## Community Involvement
+
+Founder of **Datos Para Todos**, a community initiative focused on democratizing access to data science education.
+
+**Activities:**
+
+* Sharing free learning resources
+* Promoting collaborative learning
+* Supporting students entering the data field
+
+---
+
+## Contact
+
+* **Email:** [fernandaeugeniacader@gmail.com](mailto:fernandaeugeniacader@gmail.com)
+* **LinkedIn:** [https://www.linkedin.com/in/fernandacader](https://www.linkedin.com/in/fernandacader)
+* **GitHub:** [https://github.com/FernandaCader](https://github.com/FernandaCader)
+
