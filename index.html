@@ -230,55 +230,79 @@
 
       <div class="container">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">Todos</li>
+            <li data-filter=".notebook">Notebooks (.ipynb)</li>
+            <li data-filter=".script">Scripts / Apps Python</li>
+            <li data-filter=".webapp">Web Apps</li>
+            <li data-filter=".powerbi">Power BI</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app powerbi">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/sales.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
+                  <h4>Análisis en Power BI</h4>
+                  <p>Control de ventas, pagos y adeudos 2026</p>
+                  <a href="assets/img/portfolio/sales.png" title="Desarrollo de una solución de Inteligencia de Negocios (BI) para el monitoreo en tiempo real de indicadores clave de desempeño (KPIs) comerciales. El proyecto se centra en la transformación de datos sintéticos en un modelo relacional eficiente, orientado a la toma de decisiones estratégicas mediante una visualización clara y profesional." data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://app.powerbi.com/view?r=eyJrIjoiZjEwNzc5MDMtYWNmNi00NjU0LWE1OTQtZWY4ZjAzNGYxNGU2IiwidCI6ImVkMTQ0ODRkLWNlNzYtNGQ0NC04ZDA0LWRiNzY0YjY4ZWRhZiIsImMiOjR9" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product powerbi">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/GTC.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Global Talent Connections</h4>
+                  <p>Evaluación de ingresos basada en los productos ofrecidos por Global Talent Connections, analizando ingresos y rentabilidad por categoría de servicio.</p>
+                  <a href="assets/img/portfolio/GTC.png" title="Este proyecto evalúa las ganancias por oferta de productos dentro de Global Talent Connections, destacando la generación de ingresos para cada línea de servicio." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://app.powerbi.com/view?r=eyJrIjoiMzZjMWY0NDMtYWQxYy00NTgxLWFhMTQtYjY0ODI3NGE3MzZkIiwidCI6ImVkMTQ0ODRkLWNlNzYtNGQ0NC04ZDA0LWRiNzY0YjY4ZWRhZiIsImMiOjR9" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>   
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app notebook">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/prediction.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
                   <h4>Análisis de rendimiento de ventas y proyección</h4>
                   <p>Este proyecto analiza el rendimiento de ventas mensual comparando datos reales con escenarios de ventas proyectadas.</p>
-                  <a href="assets/img/portfolio/sales.png" title="El objetivo del análisis es evaluar cómo diferentes supuestos de crecimiento impactan los ingresos a lo largo del tiempo, identificar periodos de máximo rendimiento y apoyar la toma de decisiones basada en datos para la planificación de ventas futura. Al contrastar resultados reales con proyecciones, el proyecto demuestra cómo el análisis de escenarios puede utilizarse para anticipar resultados y gestionar expectativas empresariales." data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/prediction.png" title="El objetivo del análisis es evaluar cómo diferentes supuestos de crecimiento impactan los ingresos a lo largo del tiempo, identificar periodos de máximo rendimiento y apoyar la toma de decisiones basada en datos para la planificación de ventas futura. Al contrastar resultados reales con proyecciones, el proyecto demuestra cómo el análisis de escenarios puede utilizarse para anticipar resultados y gestionar expectativas empresariales." data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Sales%20Analysis%20and%20Projection%20Impact%20of%20Advertising%20Budget%20on%20Business%20Growth.ipynb" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product notebook">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/tesla.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Análisis de tendencia del precio de acciones de Tesla</h4>
                   <p>Este proyecto analiza los precios de cierre históricos de las acciones de Tesla para identificar tendencias, volatilidad y comportamiento general del mercado.</p>
-                  <a href="assets/img/portfolio/tesla.jpg" title="El análisis se centra en comprender la dinámica del desempeño bursátil y cómo los precios evolucionan en respuesta a las condiciones del mercado. Este tipo de visualización de series de tiempo se utiliza comúnmente en análisis financiero para respaldar ideas de inversión, identificación de tendencias y análisis exploratorio de datos del mercado.
-
-Al combinar datos financieros con una narrativa visual efectiva, el proyecto demuestra la capacidad de transformar datos de mercado crudos en insights interpretables." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/tesla.jpg" title="El análisis se centra en comprender la dinámica del desempeño bursátil y cómo los precios evolucionan en respuesta a las condiciones del mercado. Este tipo de visualización de series de tiempo se utiliza comúnmente en análisis financiero para respaldar ideas de inversión, identificación de tendencias y análisis exploratorio de datos del mercado. Al combinar datos financieros con una narrativa visual efectiva, el proyecto demuestra la capacidad de transformar datos de mercado crudos en insights interpretables." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://colab.research.google.com/gist/FernandaCader/1af24830f4191e77871c869864d8dfbb/forecasting-tesla-30-days.ipynb" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding script desktop">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/bbdd.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Sistema de gestión de empleados con integración de base de datos</h4>
                   <p>Este proyecto es un sistema de gestión de empleados de escritorio diseñado para realizar operaciones CRUD completas en registros de empleados.</p>
-                  <a href="assets/img/portfolio/bbdd.png" title="El sistema muestra resultados de consultas en tiempo real y admite la exportación de datos de empleados a formatos externos como PDF, permitiendo reportes básicos y portabilidad de datos. Este proyecto demuestra conceptos prácticos de gestión de bases de datos, manejo estructurado de datos e interacción de usuario a través de una interfaz gráfica.
-
-Refleja un caso de uso administrativo real, combinando lógica de base de datos con una interfaz amigable para gestionar datos organizacionales de manera eficiente." data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/bbdd.png" title="El sistema muestra resultados de consultas en tiempo real y admite la exportación de datos de empleados a formatos externos como PDF, permitiendo reportes básicos y portabilidad de datos. Este proyecto demuestra conceptos prácticos de gestión de bases de datos, manejo estructurado de datos e interacción de usuario a través de una interfaz gráfica.Refleja un caso de uso administrativo real, combinando lógica de base de datos con una interfaz amigable para gestionar datos organizacionales de manera eficiente." data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://github.com/FernandaCader/Employee-Records/" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books webapp">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/hablame.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -287,41 +311,6 @@ Refleja un caso de uso administrativo real, combinando lógica de base de datos 
                   <a href="assets/img/portfolio/hablame.png" title="Háblame Texto es una aplicación web desarrollada para convertir audio en texto usando reconocimiento de voz. Está diseñada para apoyar a usuarios con dificultades auditivas, necesidades de transcripción o requerimientos de accesibilidad digital. La aplicación se ejecuta directamente en un navegador web sin requerir instalación y está disponible públicamente en Hugging Face Spaces.
 Tecnologías utilizadas: Python, Gradio, Whisper (modelo de OpenAI), Hugging Face Spaces." data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="https://huggingface.co/spaces/Feefer96/hablame-texto" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/powerbi.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Análisis en Power BI</h4>
-                  <p>Dashboard de rendimiento financiero y cuentas por cobrar</p>
-                  <a href="assets/img/portfolio/powerbi.png" title="Monitorea la salud financiera del negocio al seguir Ventas vs. Cobros, analizar niveles de deuda e identificar tendencias de rendimiento geográfico. Sirve como herramienta de toma de decisiones para departamentos de crédito y cobranzas." data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://app.powerbi.com/links/NBeLokT4Mv?ctid=ed14484d-ce76-4d44-8d04-db764b68edaf&pbi_source=linkShare&bookmarkGuid=d6a7ae0a-039a-4bb2-adfe-40d745850bb1" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/heart.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Análisis de distribución de enfermedades cardíacas</h4>
-                  <p>Análisis exploratorio de la distribución de enfermedades cardíacas usando Python y pandas, visualizando métricas clave y patrones en el conjunto de datos.</p>
-                  <a href="assets/img/portfolio/heart.png" title="Este proyecto explora la distribución de resultados de enfermedades cardíacas dentro de un conjunto de datos clínicos. La visualización presenta la frecuencia de pacientes en diferentes categorías objetivo, permitiendo una comprensión clara del desequilibrio de clases y los patrones de prevalencia relacionados con condiciones cardíacas." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://github.com/FernandaCader/SQL-and-Yerba-Analytics/blob/main/Prediction%20of%20Heart%20Diseases%20Using%20Machine%20Learning.ipynb" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>   
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/GTC.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Global Talent Connections</h4>
-                  <p>Evaluación de ingresos basada en los productos ofrecidos por Global Talent Connections, analizando ingresos y rentabilidad por categoría de servicio.</p>
-                  <a href="assets/img/portfolio/GTC.png" title="Este proyecto evalúa las ganancias por oferta de productos dentro de Global Talent Connections, destacando la generación de ingresos para cada línea de servicio." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://app.powerbi.com/view?r=eyJrIjoiMzZjMWY0NDMtYWQxYy00NTgxLWFhMTQtYjY0ODI3NGE3MzZkIiwidCI6ImVkMTQ0ODRkLWNlNzYtNGQ0NC04ZDA0LWRiNzY0YjY4ZWRhZiIsImMiOjR9" class="details-link" target="_blank"><i class="bi bi-link-45deg"></i></a>   
                 </div>
               </div>
             </div><!-- End Portfolio Item -->

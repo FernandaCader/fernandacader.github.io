@@ -150,14 +150,29 @@
         filter: filter,
         sortBy: sort
       });
+      // If default filter is 'all' (*), ensure Power BI items appear first
+      if (filter === '*') {
+        const container = isotopeItem.querySelector('.isotope-container');
+        const powerbiItems = Array.from(container.querySelectorAll('.isotope-item.powerbi'));
+        powerbiItems.reverse().forEach(item => container.insertBefore(item, container.firstChild));
+        // re-layout after DOM changes
+        initIsotope.arrange({ filter: '*' });
+      }
     });
 
     isotopeItem.querySelectorAll('.isotope-filters li').forEach(function(filters) {
       filters.addEventListener('click', function() {
         isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
         this.classList.add('filter-active');
+        const selectedFilter = this.getAttribute('data-filter');
+        // If 'Todos' selected, move Power BI items to top before arranging
+        if (selectedFilter === '*') {
+          const container = isotopeItem.querySelector('.isotope-container');
+          const powerbiItems = Array.from(container.querySelectorAll('.isotope-item.powerbi'));
+          powerbiItems.reverse().forEach(item => container.insertBefore(item, container.firstChild));
+        }
         initIsotope.arrange({
-          filter: this.getAttribute('data-filter')
+          filter: selectedFilter
         });
         if (typeof aosInit === 'function') {
           aosInit();
